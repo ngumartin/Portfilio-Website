@@ -372,6 +372,8 @@ h6 { font-size: 16px;}
     color: #fff;
     background-color: var(--buttonColor);
     border: none;
+    display: block;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1200px){
