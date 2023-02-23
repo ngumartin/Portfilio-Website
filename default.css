@@ -79,7 +79,8 @@ h6 { font-size: 16px;}
 
 .intro-wrapper{
     background-color: var(--secondaryColor);
-    border:1px solid var(--borderColor);
+    border-top:4px solid var(--borderColor);
+    border-left:4px solid var(--borderColor);
     border-radius: 5px 5px 0 0;
 
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
@@ -90,9 +91,7 @@ h6 { font-size: 16px;}
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         'nav-wrapper nav-wrapper'
-        'left-column right-column'
-    ;
-
+        'left-column right-column';
 }
 
 .nav-wrapper{
@@ -270,6 +269,7 @@ h6 { font-size: 16px;}
     bottom: -5px;
     right: -5px;
 }
+
 
 .about-wrapper{
     display: grid;
