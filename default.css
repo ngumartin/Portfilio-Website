@@ -1,8 +1,8 @@
 :root{
-    --mainColor: #eaeaea;
-    --secondaryColor: #fff;
+    --mainColor: #7D7D7D;
+    --secondaryColor: #ffffff;
 
-    --borderColor: #c1c1c1;
+    --borderColor: #C0C0C0;
 
     --mainText: black;
     --secondaryText: #4b5156;
@@ -79,8 +79,9 @@ h6 { font-size: 16px;}
 
 .intro-wrapper{
     background-color: var(--secondaryColor);
-    border-top:4px solid var(--borderColor);
-    border-left:4px solid var(--borderColor);
+    border-top:5px solid var(--borderColor);
+    border-left:5px solid var(--borderColor);
+    border-right:1px solid var(--borderColor);
     border-radius: 5px 5px 0 0;
 
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
@@ -235,7 +236,8 @@ h6 { font-size: 16px;}
 
 #preview{
     width: 300px;
-    border: 1.5px solid #17a2b8;
+    height: 180px;
+    border: 3px solid #17a2b8;
     background-color: var(--previewBg);
     padding: 15px;
     position: relative;
