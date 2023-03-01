@@ -9,7 +9,7 @@
 
     --themeDotBorder: #24292e;
 
-    --previewBg:rgb(251, 249, 243, 0.8);
+    --previewBg: #FBF9F3;
     --previewShadow:#ebeaea;
 
     --buttonColor: black;
@@ -55,14 +55,16 @@ h6 { font-size: 16px;}
 
 .s1{
     background-color: var(--mainColor);
-    border-bottom:1px solid var(--borderColor);
+    /* border-bottom:1px solid var(--borderColor); */
     overflow: auto;
 }
 
 .s2{
-    background-color: var(--secondaryColor);
-    border-bottom:1px solid var(--borderColor);
+    /* background-color: var(--secondaryColor); */
+    background-color: var(--mainColor);
+    /* border-bottom:1px solid var(--borderColor); */
     overflow: auto;
+    /* add borders and shadows */
 }
 
 .main-container{
@@ -277,7 +279,16 @@ h6 { font-size: 16px;}
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     padding-top: 50px;
     padding-bottom: 50px;
-    gap: 20px;
+    gap: 50px;
+    border-radius: 0 0 5px 5px;
+    border-left:3px solid var(--borderColor);
+    border-right:1px solid var(--borderColor);
+    border-bottom:3px solid var(--borderColor);
+    background-color: var(--secondaryColor);
+
+    -webkit-box-shadow: -4px 3px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 3px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: -4px -3px 3px -1px rgba(0,0,0,0.75);
 }
 
 #skills{
@@ -290,7 +301,11 @@ h6 { font-size: 16px;}
     display: grid;
     align-content: center;
     text-align: center;
+    padding-right: 50px;
+}
 
+.about-me{
+    padding-left: 50px;
 }
 
 #social_img{
@@ -303,6 +318,7 @@ h6 { font-size: 16px;}
     gap: 20px;
     justify-content: center;
     padding-bottom: 50px;
+    gap: 50px;
 }
 
 .post{
@@ -342,8 +358,9 @@ h6 { font-size: 16px;}
     border: 3px solid var(--borderColor);
     padding: 15px;
     border-radius: 5px;
-    background-color: var(--mainColor);
+    background-color: var(--secondaryColor);
     margin-bottom: 50px;
+    box-shadow: -3px 3px 3px -1px rgba(0,0,0,0.75);
 }
 
 #contact-form label{
@@ -381,10 +398,6 @@ h6 { font-size: 16px;}
     .main-container{
         width: 95%;
     }
-    /* .s2 {
-        margin-right: 2.5%;
-        margin-left: 2.5%;
-    } */
 }
 
 @media screen and (max-width: 800px){
