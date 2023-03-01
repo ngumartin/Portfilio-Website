@@ -81,7 +81,7 @@ h6 { font-size: 16px;}
 
 .intro-wrapper{
     background-color: var(--secondaryColor);
-    border-top:3px solid var(--borderColor);
+    border-top:1px solid var(--borderColor);
     border-left:3px solid var(--borderColor);
     border-right:1px solid var(--borderColor);
     border-radius: 5px 5px 0 0;
@@ -229,7 +229,7 @@ h6 { font-size: 16px;}
 }
 
 #preview-shadow{
-    background-color: var(--previewShadow);
+    background-color: var(--borderColor);
     width: 300px;
     height: 180px;
     padding-left: 30px;
