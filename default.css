@@ -55,16 +55,13 @@ h6 { font-size: 16px;}
 
 .s1{
     background-color: var(--mainColor);
-    /* border-bottom:1px solid var(--borderColor); */
     overflow: auto;
 }
 
 .s2{
-    /* background-color: var(--secondaryColor); */
     background-color: var(--mainColor);
-    /* border-bottom:1px solid var(--borderColor); */
     overflow: auto;
-    /* add borders and shadows */
+    
 }
 
 .main-container{
@@ -86,9 +83,9 @@ h6 { font-size: 16px;}
     border-right:1px solid var(--borderColor);
     border-radius: 5px 5px 0 0;
 
-    -webkit-box-shadow: -4px 3px 3px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -4px 3px 3px -1px rgba(0,0,0,0.75);
-    box-shadow: -4px 3px 3px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 3px 3px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 3px 3px 1px rgba(0,0,0,0.75);
+    box-shadow: -4px 3px 3px 1px rgba(0,0,0,0.75);
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -148,9 +145,9 @@ h6 { font-size: 16px;}
     border-radius: 50%;
     margin: 5px;
 
-    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 1px 3px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px 1px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 3px 1px rgba(0,0,0,0.75);
 
 }
 
@@ -184,9 +181,9 @@ h6 { font-size: 16px;}
     margin: 5px;
     border: 2px solid var(--themeDotBorder);
 
-    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 1px 3px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px 1px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 3px 1px rgba(0,0,0,0.75);
 
     cursor: pointer;
 
@@ -286,9 +283,9 @@ h6 { font-size: 16px;}
     border-bottom:3px solid var(--borderColor);
     background-color: var(--secondaryColor);
 
-    -webkit-box-shadow: -4px 3px 3px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -4px 3px 3px -1px rgba(0,0,0,0.75);
-    box-shadow: -4px -3px 3px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 3px 3px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 3px 3px 1px rgba(0,0,0,0.75);
+    box-shadow: -4px -3px 3px 1px rgba(0,0,0,0.75);
 }
 
 #skills{
@@ -323,9 +320,9 @@ h6 { font-size: 16px;}
 
 .post{
     border: 1px solid var (var(--borderColor));
-    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 1px 3px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px 1px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 3px 1px rgba(0,0,0,0.75);
 
 }
 
@@ -360,7 +357,7 @@ h6 { font-size: 16px;}
     border-radius: 5px;
     background-color: var(--secondaryColor);
     margin-bottom: 50px;
-    box-shadow: -3px 3px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: -3px 3px 3px 1px rgba(0,0,0,0.75);
 }
 
 #contact-form label{
