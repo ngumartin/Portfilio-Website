@@ -56,12 +56,13 @@ h6 { font-size: 16px;}
 .s1{
     background-color: var(--mainColor);
     overflow: auto;
+    overflow: hidden;
 }
 
 .s2{
     background-color: var(--mainColor);
     overflow: auto;
-    
+    overflow: hidden;
 }
 
 .main-container{
