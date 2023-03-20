@@ -84,9 +84,9 @@ h6 { font-size: 16px;}
     border-right:1px solid var(--borderColor);
     border-radius: 5px 5px 0 0;
 
-    -webkit-box-shadow: -4px 3px 3px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -4px 3px 3px 1px rgba(0,0,0,0.75);
-    box-shadow: -4px 3px 3px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 4px 3px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 4px 3px 1px rgba(0,0,0,0.75);
+    box-shadow: -4px 4px 3px 1px rgba(0,0,0,0.75);
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -156,6 +156,7 @@ h6 { font-size: 16px;}
     grid-area: left-column;
     padding-top: 50px;
     padding-bottom: 50px;
+    
 }
 
 #profile_pic{
@@ -277,6 +278,7 @@ h6 { font-size: 16px;}
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-bottom: 20px;
     gap: 50px;
     border-radius: 0 0 5px 5px;
     border-left:3px solid var(--borderColor);
@@ -284,9 +286,9 @@ h6 { font-size: 16px;}
     border-bottom:3px solid var(--borderColor);
     background-color: var(--secondaryColor);
 
-    -webkit-box-shadow: -4px 3px 3px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -4px 3px 3px 1px rgba(0,0,0,0.75);
-    box-shadow: -4px -3px 3px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 4px 3px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 4px 3px 1px rgba(0,0,0,0.75);
+    box-shadow: -4px 4px 3px 1px rgba(0,0,0,0.75);
 }
 
 #skills{
@@ -358,7 +360,7 @@ h6 { font-size: 16px;}
     border-radius: 5px;
     background-color: var(--secondaryColor);
     margin-bottom: 50px;
-    box-shadow: -3px 3px 3px 1px rgba(0,0,0,0.75);
+    box-shadow: -4px 4px 3px 1px rgba(0,0,0,0.75);
 }
 
 #contact-form label{
