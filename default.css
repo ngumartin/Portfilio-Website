@@ -416,4 +416,11 @@ h6 { font-size: 16px;}
     .right-column{
         justify-content: center;
     }
+    .social-links{
+        padding-left: 50px;
+    }
+    
+    .about-me{
+        padding-right: 50px;
+    }
 }
